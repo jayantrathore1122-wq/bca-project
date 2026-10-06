@@ -1,0 +1,16 @@
+{
+  "name": "instaclone-lite",
+  "version": "1.0.0",
+  "description": "InstaClone Lite — a simplified full-stack photo-sharing app (Express + JSON file storage, vanilla JS frontend). No database install, no build step, one command to run.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
